@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
-import './App.css'
+import SideMenu from '../../components/SideMenu/SideMenu'
+
+import './App.scss'
 
 class App extends Component {
   render () {
     return (
-      <div> Teste </div>
+      <div className='app'> Teste
+         <SideMenu />
+      </div>
     )
   }
 }
